@@ -10,7 +10,7 @@ def readme():
 
 setup(
     name='mithermometer',
-    version='0.1.1',
+    version='0.1.2',
     description='Library to read data from Xiaomi Aqara thermometer',
     long_description=readme(),
     long_description_content_type='text/markdown',
@@ -30,7 +30,7 @@ setup(
     packages=find_packages(),
     keywords='thermometer temperature humidity sensor bluetooth low-energy ble',
     zip_safe=False,
-    install_requires=['btlewrap==0.0.2'],
+    install_requires=['btlewrap==0.0.3'],
     extras_require={'testing': ['pytest']},
     include_package_data=True,
 )
