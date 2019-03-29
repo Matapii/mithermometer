@@ -10,7 +10,7 @@ def readme():
 
 setup(
     name='mithermometer',
-    version='0.1.2',
+    version='0.1.3',
     description='Library to read data from Xiaomi Aqara thermometer',
     long_description=readme(),
     long_description_content_type='text/markdown',
