@@ -30,7 +30,7 @@ setup(
     packages=find_packages(),
     keywords='thermometer temperature humidity sensor bluetooth low-energy ble',
     zip_safe=False,
-    install_requires=['btlewrap==0.0.9'],
+    install_requires=['btlewrap==0.1.1'],
     extras_require={'testing': ['pytest']},
     include_package_data=True,
 )
